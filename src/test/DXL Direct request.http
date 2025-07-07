@@ -1,0 +1,19 @@
+### Test the processing and save the output
+
+###  These will produce large json files.  Change your intellij parameters
+###  Help - EDIT Custom Properties :   idea.max.intellisense.filesize=999999
+
+POST http://localhost:8080/dxlUpload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="element-name"
+Content-Type: text/plain
+
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="00000962.dxl"
+Content-Type: multipart/form-data
+
+< ./00000962.dxl
+

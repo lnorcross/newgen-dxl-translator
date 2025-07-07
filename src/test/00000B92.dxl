@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='10.0' maintenanceversion='1.0'
+ replicaid='85258000004EA3D8' form='F_Employee'>
+<noteinfo noteid='b92' unid='ED8E41BAFDD91111112580AD0060207B' sequence='1'>
+<created><datetime>20170119T122957,71-05</datetime></created>
+<modified><datetime>20170119T123011,94-05</datetime></modified>
+<revised><datetime>20170119T123011,93-05</datetime></revised>
+<lastaccessed><datetime>20170119T123011,93-05</datetime></lastaccessed>
+<addedtofile><datetime>20170119T123011,93-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Test User6/OU=HQ/O=NRMS</name></updatedby>
+<item name='Group'><text>DB_FAX_SM_DCDISRES_EditorDelete</text></item>
+<item name='SaveOptions'><text>1</text></item>
+<item name='Emp_Name'><text>CN=Test User6/OU=HQ/O=NRMS</text></item>
+<item name='Emp_Number'><text>00000</text></item></document>
+

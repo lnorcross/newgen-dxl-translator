@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE document>
+<document xmlns='http://www.lotus.com/dxl' version='10.0' maintenanceversion='1.0'
+ replicaid='85250000004EA3D8' form='Configuration'>
+<noteinfo noteid='b66' unid='3822833B6960932D00000079005026D5' sequence='10'>
+<created><datetime>20161128T093528,21-05</datetime></created>
+<modified><datetime dst='true'>20170315T112317,98-04</datetime></modified>
+<revised><datetime dst='true'>20170315T112317,96-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20170315T112317,96-04</datetime></lastaccessed>
+<addedtofile><datetime>20161128T093528,21-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Test User/OU=HQ/O=NRMS</name><name>CN=Test User/OU=HQ/O=NRMS</name><name
+>CN=Test User/OU=HQ/O=NRMS</name><name>CN=Test User/OU=HQ/O=NRMS</name><name
+>CN=Test User/OU=HQ/O=NRMS</name><name>CN=Test User/OU=HQ/O=NRMS</name><name
+>CN=Test User/OU=HQ/O=NRMS</name><name>CN=Test User/OU=HQ/O=NRMS</name><name
+>CN=Test User/OU=HQ/O=NRMS</name><name>CN=Test User/OU=HQ/O=NRMS</name><name
+>CN=Test User/OU=HQ/O=NRMS</name><name>CN=Test User/OU=HQ/O=NRMS</name><name
+>CN=Test User/OU=HQ/O=NRMS</name><name>CN=Test User/OU=HQ/O=NRMS</name><name
+>CN=Test User/OU=HQ/O=NRMS</name><name>CN=Test User/OU=HQ/O=NRMS</name><name
+>CN=Test User/OU=HQ/O=NRMS</name><name>CN=Test User/OU=HQ/O=NRMS</name><name
+>CN=Test User/OU=40/OU=HQ/O=NRMS</name><name>CN=Test User/OU=HQ/O=NRMS</name><name
+>CN=Test User/OU=HQ/O=NRMS</name><name>CN=Test User/OU=HQ/O=NRMS</name><name
+>CN=Test User/OU=HQ/O=NRMS</name><name>CN=Test User/OU=HQ/O=NRMS</name><name
+>CN=Test User/OU=HQ/O=NRMS</name><name>CN=Test User1/OU=HQ/O=NRMS</name><name
+>CN=Test User/OU=HQ/O=NRMS</name><name>CN=Test User1/OU=HQ/O=NRMS</name><name
+>CN=Test User/OU=HQ/O=NRMS</name><name>CN=Test User2-Quast/OU=HQ/O=NRMS</name><name
+>CN=Test User/OU=40/OU=HQ/O=NRMS</name><name>CN=Test User3/OU=HQ/O=NRMS</name><name
+>CN=Test User2-Quast/OU=HQ/O=NRMS</name><name>CN=Test User4/OU=HQ/O=NRMS</name><name
+>CN=Test User2-Quast/OU=HQ/O=NRMS</name><name>CN=Test User4/OU=HQ/O=NRMS</name><name
+>CN=Test User6/OU=PCC/O=NRMS</name><name>CN=Test User5/OU=HQ/O=NRMS</name></updatedby>
+<revisions><datetime>20161128T093528,21-05</datetime><datetime>20161128T093605,48-05</datetime><datetime
+>20161128T093828,52-05</datetime><datetime>20161128T093916,82-05</datetime><datetime
+>20161128T094140,02-05</datetime><datetime>20161128T094331,70-05</datetime><datetime
+>20170130T110709,77-05</datetime><datetime>20170130T113154,41-05</datetime><datetime
+ dst='true'>20170315T112311,40-04</datetime></revisions>
+<item name='OriginalModTime'><datetime>20100106T143110,13-05</datetime></item>
+<item name='ELS'><text></text></item>
+<item name='DatabaseTitle'><text>Fax DC Dispute Resolution<break/><break
+/></text></item>
+<item name='Account'><text>Checking</text></item>
+<item name='AccountCode'><text>IL</text></item>
+<item name='SecurityIndicator'><textlist><text>01</text><text>20</text></textlist></item>
+<item name='ExpirationDate'><text>9999-12-31</text></item>
+<item name='CommonStore'><text></text></item>
+<item name='ArchiveInterval'><text>60</text></item>
+<item name='Groups'><textlist><text></text><text
+></text><text></text></textlist></item>
+<item name='ManageGroup'><text>1</text></item>
+<item name='GateWayURL'><text></text></item>
+<item name='UserID'><text></text></item>
+<item name='Password'><text></text></item>
+<item name='Phone'><textlist><text></text><text></text><text
+></text><text></text><text></text></textlist></item>
+<item name='Clone'><text>1</text></item>
+<item name='MergeFax'><text>Enabled</text></item>
+<item name='SecondIndex'><text>Enabled</text></item>
+<item name='temp'><text>c:\temp\</text></item>
+<item name='CaptureID'><text>FAXDCDIS</text></item>
+<item name='HostBridgeURL'><text></text></item>
+<item name='HostBridgePassword' seal='true'><text></text></item>
+<item name='FYIExpirationInMonths'><number>36</number></item>
+<item name='AllowAccountLevelFYINotes'><text/></item>
+<item name='ShowAssignTo'><text/></item>
+<item name='ShowAlternateReportViews'><text/></item>
+<item name='HostBridgeUserID'><text>12345</text></item>
+<item name='ELU_Server'><text>INTGAppsA1/Intg</text></item>
+<item name='ELU_FilePath'><text></text></item>
+<item name='ELU_View'><text></text></item>
+<item name='FAX_Server'><text>CN=INTGAppsA1/O=Intg</text></item>
+<item name='FAX_FilePath'><text></text></item></document>
+

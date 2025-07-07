@@ -1,0 +1,96 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+<title> NewGenSoft DXL Extractor</title>
+</head> 
+<body>
+
+<div style="font-family:'Courier New';width:88%;border:1px solid gray;padding:10px">
+    Made to post with Item List or dynamically generated...<br /><br />
+
+    KV pairs:<br /><br />
+    <li>key</li>
+    <li>value</li>
+    </ul>
+</div>
+
+<div style="width:80%;align-content:center;border:2px dashed gray;padding:10px;margin:5px">
+<input id="dxlupload" type="file" name="dxlUpload">
+<button id="dxl-upload-button" onclick="uploadDxl()"> Upload DXL</button>
+<br />
+</div>
+
+<div style="width:80%;align-content:center;border:2px dashed gray;padding:10px;margin:5px">
+    <input style="margin:2px" id="dxlAlluploadInput1" type="text" name="directory" value="c:\dxl\">
+    <input style="margin:2px" id="dxlAlluploadInput2" type="text" name="pattern" value="*.dxl">
+    <button id="dxl-all-upload-button" onclick="uploadAllDxl()"> Process All DXL</button>
+    <br />
+</div>
+
+<div style="background-color:lightgray;font-family:'Courier New';width:88%;border:1px solid gray;padding:10px">
+    Exports files to /output/dxl/NOTEID/ files...<br /><br />
+
+    Collects:<br /><br />
+    <li>documentuniqueid</li>
+    <li>noteid</li>
+    <li>replicaid</li>
+    </ul>
+</div>
+
+
+
+
+
+<!--<input id="fileupload" type="file" name="fileupload" />-->
+<!--<button id="upload-button" onclick="uploadFile()"> Upload </button>-->
+
+
+<!-- Ajax JavaScript File Upload to Spring Boot Logic -->
+<script>
+async function uploadFile() {
+  let formData = new FormData(); 
+  formData.append("file", fileupload.files[0]);
+  let response = await fetch('/upload', {
+    method: "POST", 
+    body: formData
+  }); 
+
+  if (response.status == 200) {
+      response.setContentType("text/plain");
+      response.setCharacterEncoding("UTF-8");
+      response.writer("File successfully uploaded")
+
+  }
+}
+async function uploadDxl() {
+    console.log("uploadDXL JS Function")
+    let formData = new FormData();
+    formData.append("file", dxlupload.files[0]);
+
+    let response = await fetch('/dxlUpload', {
+        method: "POST",
+        body: formData
+
+    });
+    console.log(response.formData); // Output: Hello, Async!
+
+
+}
+
+async function uploadAllDxl() {
+    console.log("uploadAllDXL JS Function")
+    let formData = new FormData();
+
+    let response = await fetch('/processAllFiles', {
+        method: "GET",
+
+    });
+    console.log(response.formData); // Output: Hello, Async!
+    alert("Done");
+
+}
+</script>
+
+
+
+</body> 
+</html>
